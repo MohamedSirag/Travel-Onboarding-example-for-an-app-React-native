@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import OnBoarding from './app/screens/OnBoarding/OnBoarding';
+import CarOnBoarding from './app/screens/OnBoarding/CarOnBoarding';
 
 const Stack = createStackNavigator();
 // constants
@@ -17,7 +18,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='OnBoarding' component={OnBoarding}
+        <Stack.Screen name='OnBoarding' component={CarOnBoarding}
           options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>

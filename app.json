@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.warherovoda.TRAVELOnBoardingApp"
+      "package": "com.warherovoda.OnBoardingApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
